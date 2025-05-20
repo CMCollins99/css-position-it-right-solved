@@ -1,4 +1,8 @@
 .legal-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
   background-color: #e2e2e2;
   padding: 30px;
   margin-top: 60px;
@@ -12,6 +16,8 @@
 }
 
 main {
+  margin-top: 150px;
+  margin-bottom: 100px;
 }
 
 section {
@@ -26,6 +32,8 @@ section {
 }
 
 .section-label {
+  position: sticky;
+  top: 180px;
   width: 100%;
   background-color: #2b2d3b;
   height: max-content;
@@ -53,6 +61,8 @@ section {
 }
 
 footer {
+  position: fixed;
+  bottom: 0;
   display: flex;
   align-items: center;
   width: 100%;

@@ -6,7 +6,6 @@
 
 html,
 body {
-  height: 100%;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -73,7 +72,7 @@ header.exercise-header {
 }
 
 .top-nav .back-button a:before {
-  content: '\2190';
+  content: "\2190";
 }
 
 .top-nav .back-button a:hover {
